@@ -1,0 +1,25 @@
+# Основные библиотеки для анализа
+pandas>=1.5.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+jupyter>=1.0.0
+
+# Для работы с документами (опционально)
+pdfplumber>=0.9.0
+openpyxl>=3.1.0
+python-docx>=0.8.11
+
+# Для веб-сборки данных (опционально)
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Утилиты
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Dev dependencies
+black>=23.0.0
+flake8>=6.0.0
+pytest>=7.3.0

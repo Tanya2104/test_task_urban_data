@@ -1,0 +1,28 @@
+project:
+  name: "TOR Data Collection"
+  version: "1.0.0"
+  author: "Татьяна Латынцева"
+
+data:
+  sources:
+    - "Госзакупки (clearspending.ru)"
+    - "Муниципальные сайты"
+    - "Проектные компании"
+  
+  regions:
+    - "Москва"
+    - "Санкт-Петербург"
+    - "Тюмень"
+    - "Смоленская область"
+    - "Иркутская область"
+
+analysis:
+  default_workers: 2
+  workday_hours: 8
+  output_format: "png"
+  
+ml:
+  model_types:
+    - "regression"
+    - "classification"
+    - "computer_vision"
